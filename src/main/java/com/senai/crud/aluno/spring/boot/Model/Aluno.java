@@ -9,7 +9,7 @@ import lombok.*;
 //@Setter
 //@AllArgsConstructor
 //@NoArgsConstructor
-@Data
+@Data // envolve todos os elementos comentados anteriormente
 @Entity
 public class Aluno {
     @Id
