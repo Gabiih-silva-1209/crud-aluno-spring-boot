@@ -41,4 +41,9 @@ public class AlunoController {
         aluno.setId(alunoDetails.getId());
                 return alunoRepository.save(aluno);
     }
+
+    @DeleteMapping("/{id}")
+    public void deleteAluno(@PathVariable String id){
+        alunoRepository.deleteById(id);
+    }
 }
