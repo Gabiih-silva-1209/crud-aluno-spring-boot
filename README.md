@@ -7,6 +7,8 @@ A aplicação implementa operações básicas de CRUD (Create, Read, Update, Del
 
 O objetivo é compreender a estrutura de um projeto backend utilizando Spring Boot e boas práticas iniciais de desenvolvimento.
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 🎯 Objetivo
 
 Compreender a estrutura de um projeto Spring Boot
@@ -21,6 +23,9 @@ Integrar aplicação com banco de dados
 
 Aplicar organização em camadas (Controller, Service, Repository)
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
 🛠️ Tecnologias Utilizadas
 
 Java
@@ -33,11 +38,13 @@ Spring Data JPA
 
 Hibernate
 
-Banco de Dados (H2 / MySQL – ajuste conforme você usou)
+Banco de Dados - H2 / MySQL 
 
 Maven
 
 Git e GitHub
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 🧱 Estrutura do Projeto
 📂 Controller
@@ -78,11 +85,11 @@ DELETE	/alunos/{id}	Remove aluno
 ⚙️ Configuração
 Requisitos
 
-Java 17+ (ou versão utilizada)
+Java 21
 
 Maven instalado
 
-IDE (IntelliJ, VS Code ou Spring Tool Suite)
+IDE (IntelliJ)
 
 Execução
 
@@ -115,6 +122,8 @@ Criação de APIs REST
 
 Tratamento básico de requisições HTTP
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 📘 Status
 
 ✔️ Projeto de estudo
@@ -133,7 +142,9 @@ Documentar API com Swagger/OpenAPI
 
 Implementar autenticação com Spring Security
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 📎 Autora
 
 Gabrieli da Silva Marcelino
-Desenvolvimento de Sistemas | Interesse em Backend e Arquitetura de Software
+Desenvolvimento de Sistemas - SENAI | Interesse em Backend e Arquitetura de Software
